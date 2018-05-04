@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified" attributeFormDefault="unqualified"
+	targetNamespace="http://www.eon.com/pegasus/calibrationcurve/version/1/0"
+	xmlns:cc="http://www.eon.com/pegasus/calibrationcurve/version/1/0">
+
+	<!-- BASIC TYPES -->
+
+	<xs:simpleType name="GranularityType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="hourly"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="EuroProMwhType">
+		<xs:restriction base="xs:decimal">
+			<xs:fractionDigits value="8"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="PricePerTimeType">
+		<xs:simpleContent>
+			<xs:extension base="cc:EuroProMwhType">
+				<xs:attribute name="t" type="cc:TimeType" use="required" />
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<xs:simpleType name="UnitType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Eur/MWh"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="CountryIso3166Alpha2Type">
+		<xs:annotation>
+			<xs:documentation>2-Buchstaben Abkürzung nach ISO 3166 Standard für nutzbare Länder.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="AT" />
+			<xs:enumeration value="BE" />
+			<xs:enumeration value="CH" />
+			<xs:enumeration value="DE" />
+			<xs:enumeration value="DK" />
+			<xs:enumeration value="FR" />
+			<xs:enumeration value="IT" />
+			<xs:enumeration value="LI" />
+			<xs:enumeration value="LU" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="TimeStampType">
+		<xs:annotation>
+			<xs:documentation>Datum mit Uhrzeit und Zeitzone. (+01:00 = Central European Time, +02:00 = Central European Summer Time)</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:dateTime"></xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="DateType">
+		<xs:annotation>
+			<xs:documentation>Datum ohne Uhrzeit.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:date"></xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="TimeType">
+		<xs:annotation>
+			<xs:documentation>Uhrzeit mit Zeitzone.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:time"></xs:restriction>
+
+	</xs:simpleType>
+
+	<xs:complexType name="DateWithPricesType">
+		<xs:sequence>
+			<xs:element name="P" type="cc:PricePerTimeType" minOccurs="1" maxOccurs="25" form="qualified"/>
+		</xs:sequence>
+		<xs:attribute name="d" type="cc:DateType" use="required" />
+	</xs:complexType>
+
+	<!-- Curve -->
+
+	<xs:complexType name="CalibrationCurveType">
+		<xs:sequence>
+			<xs:element name="D" type="cc:DateWithPricesType" minOccurs="0" maxOccurs="unbounded" form="qualified"/>
+		</xs:sequence>
+		<xs:attribute name="country" type="cc:CountryIso3166Alpha2Type" use="required" />
+		<xs:attribute name="eetTimestamp" type="cc:TimeStampType" use="required">
+			<xs:annotation>
+				<xs:documentation>Der Zeitpunkt, an dem die Kalibrierungskurve durch EET an PI geschickt geschickt wurde.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="marketPostfix" type="xs:string" use="required" >
+			<xs:annotation>
+				<xs:documentation>Die Marktbezeichnung (Market Postfix) für welchen diese hFC(eod) gültig ist.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="tradeDate" type="cc:TimeStampType" use="required" >
+			<xs:annotation>
+				<xs:documentation>Der Preiszeitstempel, der verwendeten Settlement-Preise.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="granularity" type="cc:GranularityType" use="required"/>
+		<xs:attribute name="unit" type="cc:UnitType" use="required"/>
+	</xs:complexType>
+
+	<xs:element name="hFC_endOfDay">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="CalibrationCurve"	type="cc:CalibrationCurveType" minOccurs="1" maxOccurs="1"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
