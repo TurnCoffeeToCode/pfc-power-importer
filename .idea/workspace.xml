@@ -2,52 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d584cb0-ae7c-4341-8fd0-0d022f51513e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/DateConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/PfcConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/model/Curve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/model/Pfc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/model/TimedValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/model/types/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/model/types/Granularity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/model/types/Unit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/serializer/JsonSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/serializer/PfcXmlDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/schema/eod.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/ite/dus/pfc/power/importer/converter/DateConverterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/ite/dus/pfc/power/importer/converter/PfcConverterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/ite/dus/pfc/power/importer/serializer/PfcXmlDeserializerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/de/ite/dus/pfc/power/importer/controller/PfcController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/de/ite/dus/pfc/power/importer/controller/PfcController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/de/ite/dus/pfc/power/importer/converter/XmlConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/de/ite/dus/pfc/power/importer/converter/XmlConverterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/kafka-pfc-producer-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/pfc-power-importer-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/pfc-power-importer-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/de.ite.dus.pfc.power.importer.converter.XmlConverterTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/de.ite.dus.pfc.power.importer.converter.DateConverterTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/de.ite.dus.pfc.power.importer.converter.DateConverterTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/de.ite.dus.pfc.power.importer.converter.PfcConverterTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/de.ite.dus.pfc.power.importer.converter.PfcConverterTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/de.ite.dus.pfc.power.importer.serializer.PfcXmlDeserializerTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/de.ite.dus.pfc.power.importer.serializer.PfcXmlDeserializerTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/de.ite.dus.pfc.power.importer.converter.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/de.ite.dus.pfc.power.importer.converter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/de.ite.dus.pfc.power.importer.serializer.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/de.ite.dus.pfc.power.importer.serializer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/eod.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/eod.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/test/eod.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/eod.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-de.ite.dus.pfc.power.importer.converter.XmlConverterTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/de/ite/dus/pfc/power/importer/controller/PfcController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/de/ite/dus/pfc/power/importer/controller/PfcController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/de/ite/dus/pfc/power/importer/converter/XmlConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/de/ite/dus/pfc/power/importer/converter/XmlConverterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/eod.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/eod.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/controller/PfcController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/controller/PfcController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/XmlConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/de/ite/dus/pfc/power/importer/converter/XmlConverterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/eod.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/eod.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-de.ite.dus.pfc.power.importer.converter.DateConverterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-de.ite.dus.pfc.power.importer.converter.DateConverterTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-de.ite.dus.pfc.power.importer.converter.PfcConverterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-de.ite.dus.pfc.power.importer.converter.PfcConverterTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-de.ite.dus.pfc.power.importer.serializer.PfcXmlDeserializerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-de.ite.dus.pfc.power.importer.serializer.PfcXmlDeserializerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -124,8 +93,20 @@
       <file leaf-file-name="PfcConverter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/PfcConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="908">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DateConverter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/DateConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,8 +117,8 @@
       <file leaf-file-name="PfcConverterTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/de/ite/dus/pfc/power/importer/converter/PfcConverterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+            <state relative-caret-position="221">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -145,8 +126,17 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="17" selection-start-line="17" selection-end-line="22" />
+            <state relative-caret-position="247">
+              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -166,7 +156,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>time</find>
+      <find>calendar</find>
     </findStrings>
+    <replaceStrings>
+      <replace>cal</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -638,11 +632,11 @@
         <option value="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/CurveConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/TimedValueConverter.java" />
         <option value="$PROJECT_DIR$/src/test/java/de/ite/dus/pfc/power/importer/converter/DateConverterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/DateConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/PfcConverter.java" />
         <option value="$PROJECT_DIR$/src/test/java/de/ite/dus/pfc/power/importer/converter/XmlConverterTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/de/ite/dus/pfc/power/importer/serializer/PfcXmlDeserializerTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/eod.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/PfcConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/DateConverter.java" />
         <option value="$PROJECT_DIR$/src/test/java/de/ite/dus/pfc/power/importer/converter/PfcConverterTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
@@ -662,7 +656,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
-    <option name="width" value="979" />
+    <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -671,9 +665,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -685,6 +676,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -737,11 +731,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PfcConverterTest">
+  <component name="RunManager" selected="Gradle.kafka-pfc-producer [build]">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="kafka-pfc-producer [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="kafka-pfc-producer [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -752,34 +746,28 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="clean" />
+            <option value="buildDependents" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
     </configuration>
-    <configuration name="DateConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pfc-power-importer_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.ite.dus.pfc.power.importer.converter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="de.ite.dus.pfc.power.importer.converter" />
-      <option name="MAIN_CLASS_NAME" value="de.ite.dus.pfc.power.importer.converter.DateConverterTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+    <configuration name="kafka-pfc-producer [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
     </configuration>
     <configuration name="PfcConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pfc-power-importer_test" />
@@ -804,6 +792,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="PfcConverterTest.convert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pfc-power-importer_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.ite.dus.pfc.power.importer.converter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="de.ite.dus.pfc.power.importer.converter" />
+      <option name="MAIN_CLASS_NAME" value="de.ite.dus.pfc.power.importer.converter.PfcConverterTest" />
+      <option name="METHOD_NAME" value="convert" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="PfcXmlDeserializerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pfc-power-importer_test" />
       <extension name="coverage">
@@ -818,29 +829,6 @@
       <option name="MAIN_CLASS_NAME" value="de.ite.dus.pfc.power.importer.serializer.PfcXmlDeserializerTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="XmlConverterTest.toJson_PfcXml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pfc-power-importer_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.ite.dus.pfc.power.importer.serializer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="de.ite.dus.pfc.power.importer.converter" />
-      <option name="MAIN_CLASS_NAME" value="de.ite.dus.pfc.power.importer.converter.XmlConverterTest" />
-      <option name="METHOD_NAME" value="toJson_PfcXml" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -904,19 +892,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.PfcPowerImporterApplication (1)" />
-      <item itemvalue="Gradle.kafka-pfc-producer [clean]" />
-      <item itemvalue="JUnit.XmlConverterTest.toJson_PfcXml" />
-      <item itemvalue="JUnit.DateConverterTest" />
       <item itemvalue="JUnit.PfcXmlDeserializerTest" />
       <item itemvalue="JUnit.PfcConverterTest" />
+      <item itemvalue="Gradle.kafka-pfc-producer [buildDependents]" />
+      <item itemvalue="Gradle.kafka-pfc-producer [build]" />
+      <item itemvalue="JUnit.PfcConverterTest.convert" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PfcConverterTest" />
+        <item itemvalue="JUnit.PfcConverterTest.convert" />
+        <item itemvalue="Gradle.kafka-pfc-producer [build]" />
+        <item itemvalue="Gradle.kafka-pfc-producer [buildDependents]" />
         <item itemvalue="JUnit.PfcXmlDeserializerTest" />
-        <item itemvalue="JUnit.DateConverterTest" />
-        <item itemvalue="JUnit.XmlConverterTest.toJson_PfcXml" />
-        <item itemvalue="Gradle.kafka-pfc-producer [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -932,20 +920,41 @@
       <updated>1525423663757</updated>
       <workItem from="1525423669335" duration="13702000" />
       <workItem from="1525441555062" duration="6585000" />
-      <workItem from="1525461407018" duration="254000" />
+      <workItem from="1525461407018" duration="1074000" />
+      <workItem from="1525513621498" duration="1348000" />
     </task>
+    <task id="LOCAL-00001" summary="Fixed build">
+      <created>1525514802173</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1525514802173</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Removed and ignored folders 'build', '.gradle', '.idea'">
+      <created>1525514847540</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1525514847540</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Removed and ignored folders 'build', '.gradle', '.idea'">
+      <created>1525514924049</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1525514924049</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Removed and ignored folders 'build', '.gradle', '.idea'">
+      <created>1525514943518</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1525514943518</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="XmlConverterTest_toJson_PfcXml - 2018.05.04 at 15h 48m 02s.xml">
-      <configuration name="XmlConverterTest.toJson_PfcXml" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="XmlConverterTest_toJson_PfcXml - 2018.05.04 at 15h 50m 27s.xml">
-      <configuration name="XmlConverterTest.toJson_PfcXml" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="XmlConverterTest_toJson_PfcXml - 2018.05.04 at 15h 54m 43s.xml">
-      <configuration name="XmlConverterTest.toJson_PfcXml" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="XmlConverterTest_toJson_PfcXml - 2018.05.04 at 15h 59m 43s.xml">
       <configuration name="XmlConverterTest.toJson_PfcXml" configurationId="JUnit" />
     </history-entry>
@@ -967,9 +976,18 @@
     <history-entry file="PfcConverterTest - 2018.05.04 at 21h 08m 39s.xml">
       <configuration name="PfcConverterTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PfcConverterTest_convert - 2018.05.05 at 11h 49m 12s.xml">
+      <configuration name="PfcConverterTest.convert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PfcConverterTest_convert - 2018.05.05 at 11h 50m 16s.xml">
+      <configuration name="PfcConverterTest.convert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PfcConverterTest - 2018.05.05 at 11h 51m 08s.xml">
+      <configuration name="PfcConverterTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20541000" />
+    <option name="totallyTimeSpent" value="22709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -987,6 +1005,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.34472933" />
       <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32905984" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" />
@@ -995,17 +1014,16 @@
       <window_info anchor="bottom" id="Run" order="9" weight="0.4131054" />
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25637585" />
       <window_info anchor="right" id="Bean Validation" order="6" />
       <window_info id="Web" order="4" side_tool="true" />
-      <window_info anchor="right" id="Gradle" order="3" weight="0.3295302" />
+      <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.3295302" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="0" weight="0.32905984" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32905984" />
+      <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.24966443" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32905984" />
@@ -1017,12 +1035,41 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixed build" />
+    <MESSAGE value="Removed and ignored folders 'build', '.gradle', '.idea'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed and ignored folders 'build', '.gradle', '.idea'" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="9" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/PfcConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/de/ite/dus/pfc/power/importer/converter/PfcConverterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/PfcConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -1149,13 +1196,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../java/jdk1.8.0_73/src.zip!/javax/xml/bind/Unmarshaller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -1245,16 +1285,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/DateConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/de/ite/dus/pfc/power/importer/converter/DateConverterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1291,10 +1321,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/DateConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/PfcConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="908">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1303,15 +1350,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/de/ite/dus/pfc/power/importer/converter/PfcConverterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        <state relative-caret-position="221">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="17" selection-start-line="17" selection-end-line="22" />
+        <state relative-caret-position="247">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
         </state>
       </provider>
     </entry>
