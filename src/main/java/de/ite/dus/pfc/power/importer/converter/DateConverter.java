@@ -11,14 +11,23 @@ import java.time.LocalTime;
 public class DateConverter {
 
     public LocalTime convertLocalTime(XMLGregorianCalendar cal) {
+        if(cal == null) {
+            return null;
+        }
         return cal.toGregorianCalendar().toZonedDateTime().toLocalTime();
     }
 
     public LocalDate convertLocalDate(XMLGregorianCalendar cal) {
+        if(cal == null) {
+            return null;
+        }
         return cal.toGregorianCalendar().toZonedDateTime().toLocalDate();
     }
 
     public LocalDateTime convertLocalDateTime(XMLGregorianCalendar cal) {
+        if(cal == null) {
+            return null;
+        }
         return cal.toGregorianCalendar().toZonedDateTime().toLocalDateTime();
     }
 }

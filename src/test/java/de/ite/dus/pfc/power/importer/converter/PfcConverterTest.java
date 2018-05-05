@@ -6,7 +6,9 @@ import de.ite.dus.pfc.power.importer.generated.HFCEndOfDay;
 import de.ite.dus.pfc.power.importer.model.Pfc;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.mockito.Answers;
 import org.mockito.InjectMocks;
+import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -17,6 +19,9 @@ public class PfcConverterTest {
 
     @InjectMocks
     private PfcConverter sut;
+
+    @Mock(answer = Answers.CALLS_REAL_METHODS)
+    private DateConverter dateConverter;
 
     @Test
     public void convert() {
