@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class KafkaProducer implements Producer {
 
-    @Value("${kafka.topic}")
+    @Value("${kafka.topic.pfc.power.import}")
     private String topic;
 
     @Autowired
