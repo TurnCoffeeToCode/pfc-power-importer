@@ -60,12 +60,11 @@ public class PfcConverter {
         LocalDate dayOfPrice = dateConverter.convertLocalDate(dateWithPrice.getD());
 
         List<PricePerTimeType> pricePerTimes = dateWithPrice.getP();
-        List<TimedValue> result = pricePerTimes.stream().map(pricePerTime -> {
+
+        return pricePerTimes.stream().map(pricePerTime -> {
             LocalTime timeWithinDay = dateConverter.convertLocalTime(pricePerTime.getT());
             return new TimedValue(LocalDateTime.of(dayOfPrice, timeWithinDay), pricePerTime.getValue());
         }).collect(Collectors.toList());
-
-        return result;
     }
 
     private LocalDateTime convertLocalDateTime(XMLGregorianCalendar calendar) {

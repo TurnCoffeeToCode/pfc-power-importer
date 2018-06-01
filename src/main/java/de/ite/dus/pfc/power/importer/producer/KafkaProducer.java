@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class KafkaProducer implements Producer {
 
-    @Value("kafka.topic")
+    @Value("${kafka.topic}")
     private String topic;
 
     @Autowired

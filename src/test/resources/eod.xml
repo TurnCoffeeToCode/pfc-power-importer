@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <hFC_endOfDay xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.eon.com/pegasus/calibrationcurve/version/1/0">
-	<CalibrationCurve country="DE" eetTimestamp="2017-03-18T23:45:06.7388223+01:00" marketPostfix="" tradeDate="2017-03-17T00:00:00+01:00" granularity="hourly" unit="Eur/MWh">
+	<Curve country="DE" eetTimestamp="2017-03-18T23:45:06.7388223+01:00" marketPostfix="" tradeDate="2017-03-17T00:00:00+01:00" granularity="hourly" unit="Eur/MWh">
 		<D d="2017-03-17">
 			<P t="00:00:00+01:00">21.62999916</P>
 			<P t="01:00:00+01:00">18.76000023</P>
@@ -53,5 +53,5 @@
 			<P t="22:00:00+01:00">30.75</P>
 			<P t="23:00:00+01:00">29.05999947</P>
 		</D>
-	</CalibrationCurve>
+	</Curve>
 </hFC_endOfDay>

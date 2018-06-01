@@ -15,6 +15,7 @@ public class PfcXmlDeserializer {
         JAXBContext jaxbContext = JAXBContext.newInstance(HFCEndOfDay.class);
 
         Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
+        jaxbUnmarshaller.setEventHandler(new javax.xml.bind.helpers.DefaultValidationEventHandler());
         return (HFCEndOfDay) jaxbUnmarshaller.unmarshal(new StringReader(xml));
     }
 }

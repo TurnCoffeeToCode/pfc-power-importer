@@ -9,6 +9,7 @@ import de.ite.dus.pfc.power.importer.serializer.PfcXmlDeserializer;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.kafka.core.ProducerFactory;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,6 +20,7 @@ import java.io.IOException;
 
 import static org.springframework.http.HttpStatus.BAD_REQUEST;
 import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
+import static org.springframework.http.MediaType.APPLICATION_XML_VALUE;
 import static org.springframework.web.bind.annotation.RequestMethod.POST;
 
 @Slf4j
@@ -37,7 +39,7 @@ public class PfcController {
     @Autowired
     private PfcXmlDeserializer pfcXmlDeserializer;
 
-    @RequestMapping(value = "/pfc", method = POST, consumes = APPLICATION_JSON_VALUE)
+    @RequestMapping(value = "/pfc", method = POST, consumes = APPLICATION_XML_VALUE)
     public HttpStatus importPfc(@RequestBody String message) {
         if(StringUtils.isEmpty(message)) {
             return BAD_REQUEST;
@@ -49,6 +51,7 @@ public class PfcController {
             Pfc pfc = pfcConverter.convert(hFCEndOfDay);
 
             String pfcJsonString = jsonSerializer.serialize(pfc);
+
             producer.send(pfcJsonString);
 
             return HttpStatus.OK;
@@ -57,4 +60,6 @@ public class PfcController {
             return HttpStatus.INTERNAL_SERVER_ERROR;
         }
     }
+
+
 }
