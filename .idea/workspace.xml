@@ -1,22 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d584cb0-ae7c-4341-8fd0-0d022f51513e" name="Default" comment="Removed and ignored folders 'build', '.gradle', '.idea'">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileContent/annotation-processors.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/de/ite/dus/pfc/power/importer/controller/PfcController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/de/ite/dus/pfc/power/importer/controller/PfcController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/pfc-power-importer-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/pfc-power-importer-0.0.1-SNAPSHOT.jar" afterDir="false" />
+    <list default="true" id="3d584cb0-ae7c-4341-8fd0-0d022f51513e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/de.ite.dus.pfc.power.importer.converter.DateConverterTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/de.ite.dus.pfc.power.importer.converter.DateConverterTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/de.ite.dus.pfc.power.importer.converter.PfcConverterTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/de.ite.dus.pfc.power.importer.converter.PfcConverterTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/de.ite.dus.pfc.power.importer.serializer.PfcXmlDeserializerTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/de.ite.dus.pfc.power.importer.serializer.PfcXmlDeserializerTest.html" afterDir="false" />
@@ -28,11 +14,9 @@
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-de.ite.dus.pfc.power.importer.converter.DateConverterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-de.ite.dus.pfc.power.importer.converter.DateConverterTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-de.ite.dus.pfc.power.importer.converter.PfcConverterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-de.ite.dus.pfc.power.importer.converter.PfcConverterTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-de.ite.dus.pfc.power.importer.serializer.PfcXmlDeserializerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-de.ite.dus.pfc.power.importer.serializer.PfcXmlDeserializerTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/de/ite/dus/pfc/power/importer/controller/PfcController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/de/ite/dus/pfc/power/importer/controller/PfcController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/de/ite/dus/pfc/power/importer/producer/KafkaProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/de/ite/dus/pfc/power/importer/producer/KafkaProducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/eod.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/eod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/eod.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/eod.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -152,7 +136,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
+            <state relative-caret-position="112">
               <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
@@ -972,7 +956,7 @@
       <workItem from="1525441555062" duration="6585000" />
       <workItem from="1525461407018" duration="1074000" />
       <workItem from="1525513621498" duration="2739000" />
-      <workItem from="1527836055239" duration="7500000" />
+      <workItem from="1527836055239" duration="8284000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed build">
       <created>1525514802173</created>
@@ -1023,7 +1007,21 @@
       <option name="project" value="LOCAL" />
       <updated>1527846609905</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Updated .gitignore">
+      <created>1527847149132</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1527847149132</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated .gitignore">
+      <created>1527847171856</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1527847171856</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1059,7 +1057,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31600000" />
+    <option name="totallyTimeSpent" value="32384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -1082,7 +1080,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32905984" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Run" order="9" weight="0.5826211" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="6" visible="true" weight="0.65527064" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="6" visible="true" weight="0.51424503" />
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.74358976" />
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25973153" />
@@ -1110,7 +1108,8 @@
     <MESSAGE value="Fixed build" />
     <MESSAGE value="Removed and ignored folders 'build', '.gradle', '.idea'" />
     <MESSAGE value="Get it running" />
-    <option name="LAST_COMMIT_MESSAGE" value="Get it running" />
+    <MESSAGE value="Updated .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated .gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1458,7 +1457,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
+        <state relative-caret-position="112">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
