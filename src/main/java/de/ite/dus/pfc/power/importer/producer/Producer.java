@@ -1,6 +1,8 @@
 package de.ite.dus.pfc.power.importer.producer;
 
+import de.ite.dus.pfc.power.importer.model.Pfc;
+
 public interface Producer {
 
-    void send(String message);
+    void send(Pfc pfc);
 }

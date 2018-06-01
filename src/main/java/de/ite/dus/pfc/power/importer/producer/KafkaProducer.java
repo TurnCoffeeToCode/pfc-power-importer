@@ -1,5 +1,6 @@
 package de.ite.dus.pfc.power.importer.producer;
 
+import de.ite.dus.pfc.power.importer.model.Pfc;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -14,10 +15,10 @@ public class KafkaProducer implements Producer {
     private String topic;
 
     @Autowired
-    private KafkaTemplate<String, String> kafkaTemplate;
+    private KafkaTemplate<String, Pfc> kafkaTemplate;
 
-    public void send(String payload) {
-        log.info("sending payload='{}' to topic='{}'", payload, topic);
-        kafkaTemplate.send(topic, payload);
+    public void send(Pfc pfc) {
+        log.info("sending payload='{}' to topic='{}'", pfc, topic);
+        kafkaTemplate.send(topic, pfc);
     }
 }
