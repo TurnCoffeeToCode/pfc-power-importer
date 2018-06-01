@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="de.ite.dus.pfc.power.importer.converter.DateConverterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-05-05T09:51:37" hostname="BVZGY32" time="0.2">
+<testsuite name="de.ite.dus.pfc.power.importer.converter.DateConverterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-06-01T07:59:03" hostname="BVZGY32" time="0.218">
   <properties/>
-  <testcase name="convertLocalDateTime" classname="de.ite.dus.pfc.power.importer.converter.DateConverterTest" time="0.153"/>
-  <testcase name="convertLocalDate" classname="de.ite.dus.pfc.power.importer.converter.DateConverterTest" time="0.004"/>
-  <testcase name="convertLocalTime" classname="de.ite.dus.pfc.power.importer.converter.DateConverterTest" time="0.04"/>
+  <testcase name="convertLocalDateTime" classname="de.ite.dus.pfc.power.importer.converter.DateConverterTest" time="0.187"/>
+  <testcase name="convertLocalDate" classname="de.ite.dus.pfc.power.importer.converter.DateConverterTest" time="0.018"/>
+  <testcase name="convertLocalTime" classname="de.ite.dus.pfc.power.importer.converter.DateConverterTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d584cb0-ae7c-4341-8fd0-0d022f51513e" name="Default" comment="">
+    <list default="true" id="3d584cb0-ae7c-4341-8fd0-0d022f51513e" name="Default" comment="Removed and ignored folders 'build', '.gradle', '.idea'">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileContent/annotation-processors.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/de/ite/dus/pfc/power/importer/controller/PfcController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/de/ite/dus/pfc/power/importer/controller/PfcController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/pfc-power-importer-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/pfc-power-importer-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/de.ite.dus.pfc.power.importer.converter.DateConverterTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/de.ite.dus.pfc.power.importer.converter.DateConverterTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/de.ite.dus.pfc.power.importer.converter.PfcConverterTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/de.ite.dus.pfc.power.importer.converter.PfcConverterTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/de.ite.dus.pfc.power.importer.serializer.PfcXmlDeserializerTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/de.ite.dus.pfc.power.importer.serializer.PfcXmlDeserializerTest.html" afterDir="false" />
@@ -16,7 +28,11 @@
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-de.ite.dus.pfc.power.importer.converter.DateConverterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-de.ite.dus.pfc.power.importer.converter.DateConverterTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-de.ite.dus.pfc.power.importer.converter.PfcConverterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-de.ite.dus.pfc.power.importer.converter.PfcConverterTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-de.ite.dus.pfc.power.importer.serializer.PfcXmlDeserializerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-de.ite.dus.pfc.power.importer.serializer.PfcXmlDeserializerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/de/ite/dus/pfc/power/importer/controller/PfcController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/de/ite/dus/pfc/power/importer/controller/PfcController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/de/ite/dus/pfc/power/importer/producer/KafkaProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/de/ite/dus/pfc/power/importer/producer/KafkaProducer.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -27,6 +43,28 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="PfcConverter.java" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/PfcConverter.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="186">
+                    <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -89,36 +127,24 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PfcConverter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/PfcConverter.java">
+    <leaf>
+      <file leaf-file-name="KafkaProducer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/producer/KafkaProducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="908">
-              <caret line="71" selection-start-line="71" selection-end-line="71" />
+            <state relative-caret-position="238">
+              <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#387#403#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DateConverter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/DateConverter.java">
+      <file leaf-file-name="PfcController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/controller/PfcController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PfcConverterTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/de/ite/dus/pfc/power/importer/converter/PfcConverterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="205">
+              <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -126,17 +152,35 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+            <state relative-caret-position="166">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file leaf-file-name="PfcXmlDeserializer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/serializer/PfcXmlDeserializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+            <state relative-caret-position="119">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KafkaTemplate.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.kafka/spring-kafka/2.1.5.RELEASE/1ed053057daa540f56b37765f07de65cdb616439/spring-kafka-2.1.5.RELEASE-sources.jar!/org/springframework/kafka/core/KafkaTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11">
+              <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="35" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -598,7 +642,6 @@
         <option value="$PROJECT_DIR$/src/main/java/de/ite/dus/kafka/pfc/KafkaPfcProducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/ite/dus/kafka/pfc/Producer.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/ite/dus/kafka/pfc/PfcProducer.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/de/ite/dus/kafka/pfc/Converter.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/ite/dus/kafka/pfc/PfcController.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/ite/dus/kafka/pfc/XmlConverter.java" />
@@ -624,20 +667,22 @@
         <option value="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/XmlConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/XmlDeserializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/PfcXmlDeserializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/serializer/PfcXmlDeserializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/model/Pfc.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/model/TimedValue.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/model/Curve.java" />
-        <option value="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/controller/PfcController.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/CurveConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/TimedValueConverter.java" />
         <option value="$PROJECT_DIR$/src/test/java/de/ite/dus/pfc/power/importer/converter/DateConverterTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/de/ite/dus/pfc/power/importer/converter/XmlConverterTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/de/ite/dus/pfc/power/importer/serializer/PfcXmlDeserializerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/eod.xml" />
         <option value="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/PfcConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/DateConverter.java" />
         <option value="$PROJECT_DIR$/src/test/java/de/ite/dus/pfc/power/importer/converter/PfcConverterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/serializer/PfcXmlDeserializer.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/eod.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/producer/KafkaProducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/controller/PfcController.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -665,6 +710,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -672,13 +720,15 @@
               <item name="pfc-power-importer" type="b2602c69:ProjectViewProjectNode" />
               <item name="kafka-pfc-producer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="pfc-power-importer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka-pfc-producer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -731,7 +781,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.kafka-pfc-producer [build]">
+  <component name="RunManager" selected="Spring Boot.PfcPowerImporterApplication (1)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -900,8 +950,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PfcConverterTest" />
         <item itemvalue="JUnit.PfcConverterTest.convert" />
+        <item itemvalue="JUnit.PfcConverterTest" />
         <item itemvalue="Gradle.kafka-pfc-producer [build]" />
         <item itemvalue="Gradle.kafka-pfc-producer [buildDependents]" />
         <item itemvalue="JUnit.PfcXmlDeserializerTest" />
@@ -921,7 +971,8 @@
       <workItem from="1525423669335" duration="13702000" />
       <workItem from="1525441555062" duration="6585000" />
       <workItem from="1525461407018" duration="1074000" />
-      <workItem from="1525513621498" duration="1348000" />
+      <workItem from="1525513621498" duration="2739000" />
+      <workItem from="1527836055239" duration="7500000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed build">
       <created>1525514802173</created>
@@ -951,19 +1002,31 @@
       <option name="project" value="LOCAL" />
       <updated>1525514943518</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Removed and ignored folders 'build', '.gradle', '.idea'">
+      <created>1525515027167</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1525515027167</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Get it running">
+      <created>1527846533893</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1527846533893</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Get it running">
+      <created>1527846609905</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1527846609905</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="XmlConverterTest_toJson_PfcXml - 2018.05.04 at 15h 59m 43s.xml">
-      <configuration name="XmlConverterTest.toJson_PfcXml" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DateConverterTest - 2018.05.04 at 20h 58m 46s.xml">
-      <configuration name="DateConverterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DateConverterTest - 2018.05.04 at 20h 59m 51s.xml">
-      <configuration name="DateConverterTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PfcXmlDeserializerTest - 2018.05.04 at 21h 06m 28s.xml">
       <configuration name="PfcXmlDeserializerTest" configurationId="JUnit" />
     </history-entry>
@@ -985,13 +1048,21 @@
     <history-entry file="PfcConverterTest - 2018.05.05 at 11h 51m 08s.xml">
       <configuration name="PfcConverterTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PfcConverterTest - 2018.06.01 at 09h 40m 41s.xml">
+      <configuration name="PfcConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PfcConverterTest_convert - 2018.06.01 at 09h 54m 28s.xml">
+      <configuration name="PfcConverterTest.convert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PfcConverterTest_convert - 2018.06.01 at 09h 57m 21s.xml">
+      <configuration name="PfcConverterTest.convert" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22709000" />
+    <option name="totallyTimeSpent" value="31600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="7" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -1003,27 +1074,27 @@
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.34472933" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.13675214" />
       <window_info anchor="bottom" id="TODO" order="14" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32905984" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="1" />
-      <window_info anchor="bottom" id="Java Enterprise" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32905984" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="6" visible="true" weight="0.4957265" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.4131054" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.5826211" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="6" visible="true" weight="0.65527064" />
       <window_info anchor="bottom" id="Spring" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25637585" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.74358976" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25973153" />
       <window_info anchor="right" id="Bean Validation" order="6" />
       <window_info id="Web" order="4" side_tool="true" />
-      <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.3295302" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.3295302" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="0" weight="0.32905984" />
-      <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.24966443" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32905984" />
@@ -1038,11 +1109,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed build" />
     <MESSAGE value="Removed and ignored folders 'build', '.gradle', '.idea'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed and ignored folders 'build', '.gradle', '.idea'" />
+    <MESSAGE value="Get it running" />
+    <option name="LAST_COMMIT_MESSAGE" value="Get it running" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/producer/KafkaProducer.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="12" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -1124,34 +1204,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/PfcPowerImporterApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/producer/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/producer/KafkaProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.5.RELEASE/ab32a4d2b281d459b431a5494a270a64b207490f/spring-core-5.0.5.RELEASE-sources.jar!/org/springframework/core/io/DefaultResourceLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -1179,48 +1231,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-357">
           <caret line="29" column="2" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/generated/HFCEndOfDay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/generated/ObjectFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../java/jdk1.8.0_73/src.zip!/javax/xml/bind/Unmarshaller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="453" column="18" selection-start-line="453" selection-start-column="18" selection-end-line="453" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/eod.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/generated/CalibrationCurveType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="103" column="35" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/serializer/JsonSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1255,26 +1265,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/model/Pfc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/model/Curve.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/XmlConverter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/CurveConverter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/TimedValueConverter.java" />
@@ -1285,20 +1275,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/de/ite/dus/pfc/power/importer/converter/DateConverterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="37" column="18" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/serializer/PfcXmlDeserializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/de/ite/dus/pfc/power/importer/serializer/PfcXmlDeserializerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1306,21 +1282,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/eod.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="15" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/de/ite/dus/pfc/power/importer/converter/XmlConverterTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/controller/PfcController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="41" column="42" lean-forward="true" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1328,10 +1290,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/model/Pfc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/DateConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        <state relative-caret-position="193">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/serializer/JsonSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/PfcPowerImporterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/producer/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/de/ite/dus/pfc/power/importer/converter/PfcConverterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/de/ite/dus/pfc/power/importer/converter/DateConverterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../java/jdk1.8.0_73/src.zip!/javax/xml/bind/Unmarshaller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1097">
+          <caret line="478" column="18" selection-start-line="478" selection-start-column="18" selection-end-line="478" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/model/Curve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1340,25 +1364,102 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/converter/PfcConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="908">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="186">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/de/ite/dus/pfc/power/importer/converter/PfcConverterTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/generated/CountryIso3166Alpha2Type.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="122">
+          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/generated/CalibrationCurveType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="115" column="51" selection-start-line="115" selection-start-column="27" selection-end-line="115" selection-end-column="51" />
+          <folding>
+            <element signature="e#4235#4236#0" expanded="true" />
+            <element signature="e#4271#4272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/generated/ObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/generated/HFCEndOfDay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/eod.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/eod.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.kafka/spring-kafka/2.1.5.RELEASE/1ed053057daa540f56b37765f07de65cdb616439/spring-kafka-2.1.5.RELEASE-sources.jar!/org/springframework/kafka/core/KafkaTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/producer/KafkaProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <element signature="e#387#403#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/serializer/PfcXmlDeserializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/ite/dus/pfc/power/importer/controller/PfcController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        <state relative-caret-position="166">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
