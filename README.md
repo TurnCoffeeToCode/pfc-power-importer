@@ -2,6 +2,8 @@
 The pfc-power.importer can be used to consume a pfc in xml, converting it into a JSON represantion and publishing it via Kafka aftewards. Make us of [pfc-power-persistor](https://github.com/TurnCoffeeToCode/pfc-power-persistor) in order to perist the published xml into a Mongo db.
 
 ## Run it
+At first you have to run a Kafka cluster. You can make use of [kafka-docker](https://github.com/TurnCoffeeToCode/kafka-docker).
+
 You can ran the application with executing the main of `PfcPowerImporterConfiguration`. By default, it will run on `localhost:8081`.
 
 ## Provided Rest API

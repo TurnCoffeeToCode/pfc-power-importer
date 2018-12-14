@@ -1,6 +1,5 @@
 package de.ite.dus.pfc.power.importer.serializer;
 
-import de.ite.dus.pfc.power.importer.PfcXmlDeserializer;
 import de.ite.dus.pfc.power.importer.generated.HFCEndOfDay;
 import org.junit.Test;
 import org.springframework.core.io.DefaultResourceLoader;
